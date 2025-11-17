@@ -24,3 +24,6 @@ while True:
     offset += 50000
 
 df=pd.DataFrame(data)
+
+# Save data as csv
+df.to_csv("electric_consumption_raw.csv", index=False)
