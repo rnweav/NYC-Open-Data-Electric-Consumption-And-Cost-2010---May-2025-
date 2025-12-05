@@ -37,7 +37,9 @@ The ETL pipeline performs the following:
 - Riley Weaver_Assignment2_Data_Mapping.pdf
 
 ## Data Visualizations 
-Tableau Link: https://public.tableau.com/views/NYC_Electric_Consumption_Dashboard/ElectricConsumptionDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Tableau Link: 
+https://public.tableau.com/views/NYC_Electric_Consumption_Dashboard/ElectricConsumptionDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 Visualizations:
 1. Pie Chart: Electric consumption breakdown by power vendor
 2. Column Chart: Total consumption by NYC borough
