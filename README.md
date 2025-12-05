@@ -16,15 +16,32 @@ Riley Weaver - CIS 9440 Assignment 2
 - Dataset: electric_consumption_dw
 - Table Creation Script: create-table-query
 
-## Eztl Script
+## ETL Script
 The ETL pipeline performs the following:
 1. Extract
    - Pulls all records from NYC Open Data using pagination
    - Loads JSON responses into a DataFrame
 2. Transform
-   -Converts numeric fields (kwh, kw, charges, etc.)
-   -Standardizes date fields into date dimension format
-   -Creates surrogate keys for dimensions
-   -Performs duplicate checks and basic data cleaning
+   - Converts numeric fields (kwh, kw, charges, etc.)
+   - Standardizes date fields into date dimension format
+   - Creates surrogate keys for dimensions
+   - Performs duplicate checks and basic data cleaning
 3. Load
+- Loads dimension tables with surrogate keys to BigQuery
+- Merges fact table with dimensions to add foreign keys
+- Loads fact table with proper relationships
+- Removes final duplicates and validates data integrity
+
+
+## Data Transformations/Mapping
+- Riley Weaver_Assignment2_Data_Mapping.pdf
+
+## Data Visualizations 
+Tableau Link: https://public.tableau.com/views/NYC_Electric_Consumption_Dashboard/ElectricConsumptionDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Visualizations:
+1. Pie Chart: Electric consumption breakdown by power vendor
+2. Column Chart: Total consumption by NYC borough
+3. Line Chart: Consumption trends over time by borough (2010-2025)
+4. Heat Map: Consumption intensity by borough and year
    
+Dashboard can be filtered to a specific year or across multiple years. 
