@@ -1,6 +1,6 @@
 # NYC-Open-Data-Electric-Consumption-And-Cost-2010---May-2025-
 
-Riley Weaver - CIS 9440 Assignment 1
+Riley Weaver - CIS 9440 Assignment 2
 
 ## Data Source 
 - NYC Open Data - Electric Consumption and Cost (2010 - May 2025):
