@@ -13,7 +13,7 @@ Riley Weaver - CIS 9440 Assignment 2
 
 ## Data Modeling 
 - Star Schema Dimenisional Model (see png) 
-- Dataset: electric_consumption_dw
+- Dataset: electric_consumption
 - Table Creation Script: create-table-query
 
 ## ETL Script
@@ -35,6 +35,9 @@ The ETL pipeline performs the following:
 
 ## Data Transformations/Mapping
 - Riley Weaver_Assignment2_Data_Mapping.pdf
+
+## Data Tables 
+Link: https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1sfabled-ranger-421314!2selectric_consumption
 
 ## Data Visualizations 
 Tableau Link: 
