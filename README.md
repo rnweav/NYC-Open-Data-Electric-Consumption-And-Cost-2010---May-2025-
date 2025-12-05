@@ -27,10 +27,10 @@ The ETL pipeline performs the following:
    - Creates surrogate keys for dimensions
    - Performs duplicate checks and basic data cleaning
 3. Load
-- Loads dimension tables with surrogate keys to BigQuery
-- Merges fact table with dimensions to add foreign keys
-- Loads fact table with proper relationships
-- Removes final duplicates and validates data integrity
+  - Loads dimension tables with surrogate keys to BigQuery
+  - Merges fact table with dimensions to add foreign keys
+  - Loads fact table with proper relationships
+  - Removes final duplicates and validates data integrity
 
 
 ## Data Transformations/Mapping
