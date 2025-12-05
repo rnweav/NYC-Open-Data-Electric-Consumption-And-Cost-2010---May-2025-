@@ -12,11 +12,13 @@ Riley Weaver - CIS 9440 Assignment 2
 - Google Cloud Bucket: rweaver-electric-consumption-data
 
 ## Data Modeling 
-- Star Schema Dimenisional Model (see png) 
 - Dataset: electric_consumption
+- Star Schema Dimenisional Model: Assignment 2 Updated Dimensional Model.drawio.png
 - Table Creation Script: create-table-query
 
 ## ETL Script
+ETL Script: electric_consumption_etl_script.py
+
 The ETL pipeline performs the following:
 1. Extract
    - Pulls all records from NYC Open Data using pagination
